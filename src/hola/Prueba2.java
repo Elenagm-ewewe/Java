@@ -6,6 +6,8 @@ public class Prueba2 {
 	public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
 	
+//2. Realizar un programa que solicite dos números por teclado e imprima en pantalla si son iguales, el primero mayor que el segundo o el primero más pequeño que el segundo. 	
+	
 	System.out.println("Introduce el primer número");
 	int numero1 = scanner.nextInt();
 	
