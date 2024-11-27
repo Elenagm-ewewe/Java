@@ -17,7 +17,6 @@ if (num % 2 <= 0) {
 }else {
 System.out.println("Es impar");
 
-System.out.println("puta");
 }
 }
 }
