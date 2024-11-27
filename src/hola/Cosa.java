@@ -5,5 +5,7 @@ public class Cosa {
 
 	System.out.println("Hola");
 	System.out.println("Caracola");
+	System.out.println("Pesicola");
+
 }
 }
