@@ -19,10 +19,8 @@ public class Prueba2 {
 	} else if (numero1 == numero2) {
 	System.out.println("El número " + numero1 + " es igual que el " + numero2);
 	}else{
-		System.out.println("El número " + numero1 + " es mayor que el " + numero2);
-scanner.close();
-		
+		System.out.println("El número " + numero1 + " es mayor que el " + numero2);	
 	}
-		
+	scanner.close();	
 	}
 }
