@@ -9,7 +9,7 @@ System.out.println("Indroduce una edad:");
 int edad = scanner.nextInt(); 
 
 while (edad>100 || edad<0) {
-	System.out.println("No vale. Indroduce un valor entre 0 y 100");
+	System.out.println("No vale. Introduce un valor entre 0 y 100");
 	edad = scanner.nextInt(); 
 }
 
