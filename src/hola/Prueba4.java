@@ -8,7 +8,12 @@ System.out.println("Indroduce una edad:");
 
 int edad = scanner.nextInt(); 
 
-if (edad>0 && edad<=12) {
+if (edad>100 && edad<0) {
+	System.out.println("No vale. Indroduce un valor entre 0 y 100");
+	edad = scanner.nextInt(); 
+}
+
+if (edad>=0 && edad<=12) {
 	System.out.println("Es un niño");
 }if (edad>12 && edad <=17){
 	System.out.println("Es un adolescente");
