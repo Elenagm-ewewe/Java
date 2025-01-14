@@ -20,7 +20,23 @@ media= media/4;
 
 System.out.println("La media de los 3 números dados es " + media);
 
-System.out.println("Los números superiores a la media son ");
+System.out.println("Los números superiores a la media son: ");
+
+if (numero1 > media ) {
+	System.out.println(" " + numero1);
+}
+
+if (numero2 > media ) {
+	System.out.println(" " + numero2);
+}
+
+if (numero3 > media ) {
+	System.out.println(" " + numero3);
+}
+
+if (numero4 > media ) {
+	System.out.println(" " + numero4);
+}
 
 scanner.close();	
 }
