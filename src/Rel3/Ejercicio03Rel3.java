@@ -15,7 +15,7 @@ int cifras = esto.length();
 
 System.out.println(cifras);
 
-//cerramos el scanner
+//cerramos el scanner____________________________
 	entrada.close();
 }
 }

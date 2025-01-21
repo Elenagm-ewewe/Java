@@ -9,21 +9,20 @@ public static void main(String[]args) {
 	
 	Scanner entrada = new Scanner(System.in);
 	
-	int num1=9;
-	int num2=6;
-	
-	int resultado = suma(num1, num2);
-	
-	System.out.println(resultado);
-	
+	int limsup;
+	int liminf;
 	
 	entrada.close();
 }	
 
 //________________________________________________________________
 
-	public static int suma(int cant1, int cant2) {
+	public static int solicitarNumeroEnRango(int num1, int num2) {
+		Scanner entrada2 = new Scanner(System.in);
 		return cant1 + cant2;	
+		
+		
+		entrada2.close();
 	}
 //________________________________________________________________
 }
