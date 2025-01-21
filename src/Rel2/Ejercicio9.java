@@ -29,7 +29,7 @@ if (suma==numero) {
 		System.out.print(num+ "+");
 	}
 	
-	System.out.print("="+ numero);
+	System.out.print("="+ suma);
 	
 }else {
 	System.out.print("El número " + numero + " NO es un numero perfecto porque ");
@@ -38,7 +38,7 @@ if (suma==numero) {
 		System.out.print(num+ "+");
 	}
 	
-	System.out.print("="+ numero);
+	System.out.print("="+ suma);
 }
 
 	
