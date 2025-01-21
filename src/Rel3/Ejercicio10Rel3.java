@@ -13,17 +13,29 @@ public class Ejercicio10Rel3 {
 	
 //____________________________________________________________________
 
-if (base%2!=0) {
+if (base%2==0) {
 	do {
 	System.out.println("Por favor, introduce un número IMPAR");
 	base = entrada.nextInt();
-	}while(base%2!=0);
+	}while(base%2==0);
 }
 //____________________________________________________________________
 
-for (int i=0; i<) {
+int lineas = (base/2)+1;
+int ncaracteres = 1;
+
+//____________________________________________________________________
+
+for (int i=1; i<lineas+1; i++) {
 	
+	for (int p=1; p<ncaracteres+1; p++) {
 	
+	System.out.print(caracter);
+	
+	}
+	
+	ncaracteres = ncaracteres +2;
+	System.out.println();
 }
 	
 	entrada.close();
